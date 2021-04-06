@@ -1,0 +1,80 @@
+.contact .top {
+  column-gap: 40px;
+}
+.contact .conDetail {
+  background-color: #fff;
+  width: 300px;
+  padding: 15px 0 15px 20px;
+  justify-content: start;
+  column-gap: 10px;
+  border-radius: 3px;
+
+  box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.3);
+}
+.contact .conDetail .name {
+  font-weight: bold;
+}
+.contact .conDetail .info {
+  color: rgb(138, 135, 135);
+  font-weight: 300;
+}
+.conIcon {
+  font-size: 1.5rem;
+}
+.middle {
+  width: 58vw;
+  height: 60vh;
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 0 0 11px rgba(0, 0, 0, 0.2);
+  row-gap: 20px;
+  padding: 20px 45px;
+}
+.contact {
+  row-gap: 40px;
+}
+.midConDet input {
+  width: 220px;
+  height: 40px;
+  padding-left: 20px;
+  border-radius: 4px;
+  border: 1px solid gray;
+}
+.midConDet input:focus,
+.msg:focus {
+  border: 2px solid gray;
+  outline: none;
+}
+.middle h3 {
+  margin-right: auto;
+  margin-bottom: 10px;
+  text-shadow: 1px 1px 2px gray;
+  /* margin-left: 2.8rem; */
+}
+.midConDet {
+  column-gap: 20px;
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center;
+}
+.msg {
+  width: 100%;
+  height: 30vh;
+  padding: 20px;
+  border-radius: 4px;
+}
+.conBtn {
+  outline: none;
+  border: none;
+  margin-right: auto;
+  padding: 10px 20px;
+  background-color: #5aa4d6;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+.conBtn:hover {
+  background-color: #4597ce;
+  transition: 0.3s;
+}

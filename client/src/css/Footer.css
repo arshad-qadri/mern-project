@@ -1,0 +1,9 @@
+footer {
+  position: fixed;
+  bottom: 0;
+  background: #fafcfc;
+  width: 100%;
+  padding: 10px 0;
+  color: rgb(180, 178, 178);
+  letter-spacing: 1px;
+}
